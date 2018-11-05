@@ -1,0 +1,46 @@
+body{
+    background-color: #f1f1f1;
+}
+#navbar{
+    margin: auto;
+    width: 90%;
+    text-align: left;
+    background-color: black;
+    color: white;
+    padding: 0.7em;
+    border-top-left-radius: 01em;
+    border-top-right-radius: 1em;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+#navbar:hover{
+    color: antiquewhite;
+}
+#box{
+    margin: auto;
+    width: 65%;
+    border: solid black 1px;
+    padding: 1em;
+    border-radius: 1em;
+    box-shadow: 0.5em;
+}
+#Welcome{
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 60%;
+    border-radius: 0.5em;
+    margin: auto;
+    padding: 0.3em;
+    font-family: "Times New Roman", Times, serif;
+}
+#bottom{
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 0.2em;
+    border-bottom-left-radius: 01em;
+    border-bottom-right-radius: 1em;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
