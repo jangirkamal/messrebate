@@ -38,9 +38,9 @@
 				$_SESSION['valid'] = TRUE;
 				$_SESSION['uname'] = 'h5mess';
 				
-					$servername = '10.105.177.5';
+					$servername = '';
 					$username = 'hostel5';
-					$password = "manmohansingh";
+					$password = "";
 					$dbname = "hostel5";
 					// Create connection
 					$conn = new mysqli($servername, $username, $password, $dbname);
