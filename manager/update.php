@@ -2,10 +2,10 @@
 session_start();
 if($_SERVER['REQUEST_METHOD'] === "POST" && $_SESSION['valid'] && $_SESSION['uname'] === 'h2mess') {
 
-	$servername = '10.105.177.5';
-	$username = 'hostel5';
-	$password = "manmohansingh";
-	$dbname = "hostel5";
+	$servername = '';
+	$username = '';
+	$password = "";
+	$dbname = "";
 	// Create connection
 	$conn = new mysqli($servername, $username, $password, $dbname);
 	// Check connection
