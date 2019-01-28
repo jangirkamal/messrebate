@@ -37,10 +37,10 @@
 
 			if ($days > 2 && $days < 11) {
 
-					$servername = '10.105.177.5';
-					$username = 'hostel5';
-					$password = "manmohansingh";
-					$dbname = "hostel5";
+// 					$servername = '';
+// 					$username = 'hostel5';
+// 					$password = "";
+// 					$dbname = "hostel5";
 
 				$conn = new mysqli($servername, $username, $password, $dbname);
 
